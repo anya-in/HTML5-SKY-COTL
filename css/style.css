@@ -1,0 +1,306 @@
+body{
+  
+  padding: 0;
+  margin: 0;
+}
+.home-bg{
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/skyhd2.jpeg) ;
+ background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-blend-mode:screen;
+}
+
+.guide-bg{
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/guide_edited.jpg) ;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-blend-mode:screen;
+}
+/*news*/
+.news-bg{
+  /*background-color: #2e7090;*/
+  background-image:url(../img/newsec-bg.jpeg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#news_section h2{
+ font-size: 55px;
+ font-family: 'Courier New', Courier, monospace;
+ text-align:center;
+ padding-top: 80;
+ word-spacing:normal;
+ letter-spacing: -0.08em;
+ font-weight:300;
+ color:black;
+}
+
+#soa img{
+  float:center;
+  position:relative;
+  top: 60%;
+  bottom: 80%;
+ left: 15%;
+ right:15%;
+ margin-top: 10px;
+ padding-right: 30%;
+ background-blend-mode: saturation;
+
+}
+
+#news_section p{
+  
+  font-size:23px;
+  text-align:left;
+  font-weight:300;
+  font-style: normal;
+  font-family: 'Courier New', Courier, monospace;
+  color:#5123cf;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 8%;
+  line-height: 2;
+
+}
+
+#soa_subheader{
+  font-size:40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: navy;
+  font-weight: 500;
+  padding-top: 2%;
+  padding-left: 10%;
+
+}
+/* Global*/
+.container{
+  width:89%;
+  margin:auto;
+  overflow:hidden;
+ 
+}
+
+ul{
+  margin:0;
+  padding:20px;
+  float: left;
+
+}
+/*Header*/
+
+header{
+
+padding-top:10px;
+min-height:70px;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform :uppercase;
+  font-size:20px;
+
+}
+
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 50px 0 50px;
+
+}
+
+
+header #branding{
+  float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:0;
+  }
+  #boxes{
+    background-image: white;
+    margin-top:20px;
+    margin-left: 100px;
+  }
+  #boxes .box{
+    float:left;
+    width:10%;
+    padding: 50px 20px 50px 20px;
+    margin-left: 100px;
+  }
+  
+  #boxes .box img{
+    width:100px;
+  }
+
+  div.transbox {
+   
+  background-color: whitesmoke;
+  position:relative;
+  float:center;
+  width: 500px;
+  height: 100px;
+  opacity: 0.4;
+  top: 50%;
+  left: 23%;
+  right:50%;
+  text-align: center;
+  border: 5px solid whitesmoke;
+  }
+  
+  .transbox h2{
+    font-size:25px;
+    text-align:left;
+    font-weight:300;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(3, 34, 173);
+    line-height: 1;
+  }
+  div.transbox_guide {
+   
+    background-color: whitesmoke;
+    position:center;
+    float:left;
+    top: 50%;
+    left: 23%;
+    right:50%;
+    width: 700px;
+    height: 800px;
+    opacity: 0.5;
+    text-align: center;
+    border: 2px whitesmoke;
+    }
+    
+    .transbox_guide h1{
+      font-size:40px;
+      text-align:center;
+      font-weight: bold;
+      font-style: normal;
+      font-family: 'Courier New', Courier, monospace;
+      color:black;
+      padding-top: 10%;
+      line-height: 1;
+    }
+
+    .transbox_guide p{
+      font-size:20px;
+      text-align:center;
+      font-weight:300;
+      font-style: normal;
+      font-family: 'Courier New', Courier, monospace;
+      color:rgb(54, 24, 24);
+      line-height: 2;
+    }
+
+
+    div.transbox_home {
+   
+      background-color: rgb(182, 232, 245);
+      position:center;
+      top: 50%;
+      left: 50%;
+      right:10%;
+      width: 100%;
+      height: 600px;
+      opacity: 0.6;
+      text-align: center;
+      border: 2px whitesmoke;
+      }
+      
+      .transbox_home h2{
+        font-size:50px;
+        text-align:center;
+        font-style: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:black;
+        padding-top: 10%;
+        line-height: 1;
+      }
+  
+      .transbox_home #transbox-home-p{
+        font-size:24px;
+        text-align:center;
+        font-weight:500;
+        font-style: normal;
+        font-family: 'Courier New', Courier, monospace;
+        color:black;
+        line-height: 2;
+      }
+
+    #vid{
+      padding:500 150 10 10;
+      position:absolute;
+      margin-left: 100;
+
+      opacity:0.7;
+    }
+    
+  #showcase{
+  background: transparent;
+  }
+  #showcase h2{
+    font-size: 60px;
+    font-weight: lighter;
+    text-align: center;
+    font-family:'Courier New', Courier;
+  }
+  #showcase p{
+  
+    font-size:25px;
+    text-align:left;
+    font-weight:300;
+    font-style: normal;
+    font-family: 'Lato','Sans-serif';
+    color:rgba(47,106,135);
+    line-height: 1.5;
+  
+
+  }
+  
+  #showcase img{
+   float:center;
+   position:relative;
+   top: 60%;
+   bottom: 40%;
+  left: 35%;
+  margin-top: 10px;
+  margin-left: -20px;
+
+  }
+  footer{
+  
+    padding :20;
+    margin-top: 20;
+    color:black;
+    background-color:transparent;
+    text-align:center;
+    z-index: -1;
+  }
+  #footer_guide{
+    position: absolute;
+    padding :700 100 0 100;
+    float:center;
+    margin-left: 600;
+    margin-top: 0;
+    color:black;
+    background-color:transparent;
+    text-align:center;
+    z-index: -1;
+
+  }
+  #footer_news{
+    padding-top: 20%;
+
+  }
